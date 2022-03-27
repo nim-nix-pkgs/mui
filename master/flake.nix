@@ -11,6 +11,7 @@
   inputs.src-mui-master.ref   = "refs/heads/master";
   inputs.src-mui-master.owner = "angluca";
   inputs.src-mui-master.repo  = "mui";
+  inputs.src-mui-master.dir   = "";
   inputs.src-mui-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
